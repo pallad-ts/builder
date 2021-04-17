@@ -1,0 +1,33 @@
+{
+  "name": "@pallad/builder",
+  "version": "1.0.0",
+  "description": "Basic helper for builders",
+  "main": "compiled/index.js",
+  "scripts": {
+    "test": "pallad-scripts test",
+    "compile": "pallad-scripts compile",
+    "lint": "pallad-scripts lint",
+    "prepack": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pallad-ts/builder.git"
+  },
+  "files": [
+    "compiled"
+  ],
+  "keywords": [
+    "builder",
+    "pallad"
+  ],
+  "author": "Łukasz Kużyński <lukasz.kuzynski@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pallad-ts/builder/issues"
+  },
+  "homepage": "https://github.com/pallad-ts/builder#readme",
+  "devDependencies": {
+    "@pallad/scripts": "^2.0.0-alpha.12",
+    "sinon": "^9.2.4"
+  }
+}
