@@ -1,8 +1,9 @@
 {
   "name": "@pallad/builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Basic helper for builders",
   "main": "compiled/index.js",
+  "types": "compiled/index.d.ts",
   "scripts": {
     "test": "pallad-scripts test",
     "compile": "pallad-scripts compile",
