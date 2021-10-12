@@ -1,1 +1,1 @@
-export * from './Builder';
+export {Builder} from './Builder';

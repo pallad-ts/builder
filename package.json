@@ -1,6 +1,6 @@
 {
   "name": "@pallad/builder",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Basic helper for builders",
   "main": "compiled/index.js",
   "types": "compiled/index.d.ts",
@@ -19,7 +19,8 @@
   ],
   "keywords": [
     "builder",
-    "pallad"
+    "pallad",
+    "typescript"
   ],
   "author": "Łukasz Kużyński <lukasz.kuzynski@gmail.com>",
   "license": "MIT",
@@ -28,7 +29,8 @@
   },
   "homepage": "https://github.com/pallad-ts/builder#readme",
   "devDependencies": {
-    "@pallad/scripts": "^2.0.0-alpha.12",
-    "sinon": "^9.2.4"
+    "@pallad/scripts": "^2",
+    "conditional-type-checks": "^1.0.5",
+    "sinon": "^9"
   }
 }
