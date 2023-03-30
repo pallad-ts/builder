@@ -87,6 +87,7 @@ describe('Builder', () => {
 		});
 
 		it('returns returned result if func returns non null and non undefined value', () => {
+			// eslint-disable-next-line no-null/no-null
 			const stub = sinon.stub().returns(null);
 			const result = builder.run(stub);
 			expect(result)

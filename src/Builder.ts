@@ -11,6 +11,7 @@ export class Builder {
 	run<TResult>(func: (builder: this) => TResult): this | NonNullable<TResult>;
 	run<TResult>(func: (builder: this) => TResult): this | NonNullable<TResult> {
 		const result = func(this);
+		// eslint-disable-next-line no-null/no-null
 		if (result === undefined || result === null) {
 			return this;
 		}
