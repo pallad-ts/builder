@@ -1,6 +1,6 @@
 {
   "name": "@pallad/builder",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Basic helper for builders",
   "main": "compiled/index.js",
   "types": "compiled/index.d.ts",
@@ -29,8 +29,8 @@
   },
   "homepage": "https://github.com/pallad-ts/builder#readme",
   "devDependencies": {
-    "@pallad/scripts": "^2",
+    "@pallad/scripts": "^3",
     "conditional-type-checks": "^1.0.5",
-    "sinon": "^9"
+    "sinon": "^14"
   }
 }
