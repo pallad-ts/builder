@@ -5,9 +5,9 @@
 </div>
 
 ---
-[![CircleCI](https://circleci.com/gh/pallad-ts/error-mapper/tree/master.svg?style=svg)](https://circleci.com/gh/pallad-ts/error-mapper/tree/master)
-[![npm version](https://badge.fury.io/js/@pallad%2Ferror-mapper.svg)](https://badge.fury.io/js/@pallad%2Ferror-mapper)
-[![Coverage Status](https://coveralls.io/repos/github/pallad-ts/error-mapper/badge.svg?branch=master)](https://coveralls.io/github/pallad-ts/error-mapper?branch=master)
+[![CircleCI](https://circleci.com/gh/pallad-ts/builder/tree/master.svg?style=svg)](https://circleci.com/gh/pallad-ts/builder/tree/master)
+[![npm version](https://badge.fury.io/js/@pallad%2Fbuilder.svg)](https://badge.fury.io/js/@pallad%2Fbuilder)
+[![Coverage Status](https://coveralls.io/repos/github/pallad-ts/builder/badge.svg?branch=master)](https://coveralls.io/github/pallad-ts/builder?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ---
 
